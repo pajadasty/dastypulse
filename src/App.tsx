@@ -143,7 +143,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#06090f] text-slate-100 flex flex-col justify-between selection:bg-emerald-400 selection:text-black scanlines">
+    <div className="min-h-screen bg-[#06090f] text-slate-100 flex flex-col justify-between selection:bg-emerald-400 selection:text-black relative">
       {/* Background ambient lighting */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-0 right-1/4 w-[600px] h-[350px] bg-emerald-500/10 blur-[130px] rounded-full"></div>
